@@ -1,0 +1,51 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:#b4c3db;
+    border-radius: 10px;
+}
+.navlink{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+    margin-top: 25px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.btn{
+    font-size: 18px;
+    margin:10px;
+    border-radius: 10px;
+    padding: 5px;
+    color:white;
+    background-color:black;
+    cursor: pointer;
+    height: 35px;
+    margin-top: 18px;
+
+}
+.btn:hover{
+    background-color: brown;
+}
+.logo_container{
+    width: 100px;
+    height:70px;
+
+}
+.logo_img{
+    margin-top: 10px;
+    width:60px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+    
+   
